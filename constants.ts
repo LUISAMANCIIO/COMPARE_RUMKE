@@ -1,0 +1,51 @@
+
+import { ReferenceRange } from './types';
+
+export const REFERENCE_TABLE: ReferenceRange[] = [
+  { baseValue: 0, min: 0.0, max: 3.6, rawLabel: '0.0–3.6' },
+  { baseValue: 1, min: 0.0, max: 5.4, rawLabel: '0.0–5.4' },
+  { baseValue: 2, min: 0.2, max: 7.0, rawLabel: '0.2–7.0' },
+  { baseValue: 3, min: 0.6, max: 8.5, rawLabel: '0.6–8.5' },
+  { baseValue: 4, min: 1.1, max: 9.9, rawLabel: '1.1–9.9' },
+  { baseValue: 5, min: 1.6, max: 11.3, rawLabel: '1.6–11.3' },
+  { baseValue: 6, min: 2.2, max: 12.6, rawLabel: '2.2–12.6' },
+  { baseValue: 7, min: 2.9, max: 13.9, rawLabel: '2.9–13.9' },
+  { baseValue: 8, min: 3.5, max: 15.2, rawLabel: '3.5–15.2' },
+  { baseValue: 9, min: 4.2, max: 16.4, rawLabel: '4.2–16.4' },
+  { baseValue: 10, min: 4.9, max: 17.6, rawLabel: '4.9–17.6' },
+  { baseValue: 15, min: 8.6, max: 23.5, rawLabel: '8.6–23.5' },
+  { baseValue: 20, min: 12.7, max: 29.2, rawLabel: '12.7–29.2' },
+  { baseValue: 25, min: 16.9, max: 34.7, rawLabel: '16.9–34.7' },
+  { baseValue: 30, min: 21.2, max: 40.0, rawLabel: '21.2–40.0' },
+  { baseValue: 35, min: 25.7, max: 45.2, rawLabel: '25.7–45.2' },
+  { baseValue: 40, min: 30.3, max: 50.3, rawLabel: '30.3–50.3' },
+  { baseValue: 45, min: 35.0, max: 55.3, rawLabel: '35.0–55.3' },
+  { baseValue: 50, min: 39.8, max: 60.2, rawLabel: '39.8–60.2' },
+  { baseValue: 55, min: 44.7, max: 65.0, rawLabel: '44.7–65.0' },
+  { baseValue: 60, min: 49.7, max: 69.7, rawLabel: '49.7–69.7' },
+  { baseValue: 65, min: 54.8, max: 74.3, rawLabel: '54.8–74.3' },
+  { baseValue: 70, min: 60.0, max: 78.8, rawLabel: '60.0–78.8' },
+  { baseValue: 75, min: 65.3, max: 83.1, rawLabel: '65.3–83.1' },
+  { baseValue: 80, min: 70.8, max: 87.3, rawLabel: '70.8–87.3' },
+  { baseValue: 85, min: 76.5, max: 91.4, rawLabel: '76.5–91.4' },
+  { baseValue: 90, min: 82.4, max: 95.1, rawLabel: '82.4–95.1' },
+  { baseValue: 91, min: 83.6, max: 95.8, rawLabel: '83.6–95.8' },
+  { baseValue: 92, min: 84.8, max: 96.5, rawLabel: '84.8–96.5' },
+  { baseValue: 93, min: 86.1, max: 97.1, rawLabel: '86.1–97.1' },
+  { baseValue: 94, min: 87.4, max: 97.8, rawLabel: '87.4–97.8' },
+  { baseValue: 95, min: 88.7, max: 98.4, rawLabel: '88.7–98.4' },
+  { baseValue: 96, min: 90.1, max: 98.9, rawLabel: '90.1–98.9' },
+  { baseValue: 97, min: 91.5, max: 99.4, rawLabel: '91.5–99.4' },
+  { baseValue: 98, min: 93.0, max: 99.8, rawLabel: '93.0–99.8' },
+  { baseValue: 99, min: 94.6, max: 99.9, rawLabel: '94.6–99.9' },
+  { baseValue: 100, min: 96.4, max: 100.0, rawLabel: '96.4–100.0' },
+];
+
+export const INITIAL_PARAMETERS = [
+  'Neutrófilos',
+  'Linfócitos',
+  'Monócitos',
+  'Eosinófilos',
+  'Basófilos',
+  'Outros'
+];
